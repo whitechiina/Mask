@@ -1,0 +1,20 @@
+/* pages/share.wxss */
+
+button {
+  margin: 10px 20px 0px 20px;
+}
+
+weui-msg__title{
+  color: #00b918;
+}
+
+.title{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #00b918;
+}
+
+.tip{
+  line-height: 30px;
+  color: #00b918;
+}

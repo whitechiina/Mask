@@ -1,0 +1,67 @@
+<!--pages/share.wxml-->
+<view class="page">
+  <view class="weui-msg">
+    <view class="weui-msg__icon-area">
+      <icon type="success" size="64"></icon> 
+    </view>
+    <view class="weui-msg__text-area">
+      <view class="weui-msg__title">操作成功</view>
+      <view class="weui-msg__desc">您生成的头像已经保存到相册
+        <!-- <navigator url="" class="weui-msg__link">文字链接</navigator> -->
+      </view>
+    </view>
+    <view class="weui-msg__opr-area">
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" open-type="share">将小程序分享给朋友</button>
+        <poster id="poster" config="{{posterConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">
+            <button class="weui-btn">点击生成海报</button>
+        </poster>
+      </view>
+    </view>
+    <view class="weui-msg__tips-area">
+      <view class="title">
+        安全小贴士：
+      </view>
+      <view class="tip">
+      玩归玩，闹归闹，出门记得戴口罩
+      </view>
+      <view class="tip">
+      爱吃野味可不妙，冠状病毒就来到
+      </view>
+      <view class="tip">
+      人传人是不得了，医生护士中招了
+      </view>
+      <view class="tip">
+      春节就要来到了，预防措施少不了
+      </view>
+      <view class="tip">
+      勤洗手，戴口罩，热闹地方不去了
+      </view>
+      <view class="tip">
+      野生动物不接触，不捕食来不贩卖
+      </view>
+      <view class="tip">
+      打喷嚏要用纸巾，清洗双手才放心
+      </view>
+      <view class="tip">
+      不避医也不讳医，以下症状及时医
+      </view>
+      <view class="tip">
+      咳嗽咳痰发高烧，呼吸困难心跳高
+      </view>
+      <view class="tip">
+      不方便咱也不怕，正规医院告诉她
+      </view>
+      <view class="tip">
+      专家坐诊信誉高，耽误治疗代价高
+      </view>
+
+    </view>
+    <view class="footer">
+      <view class="weui-footer">
+        <view class="weui-footer__text">Developed by jinyaowei.xyz
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
